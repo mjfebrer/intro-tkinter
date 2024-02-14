@@ -7,16 +7,15 @@ textBoxLabel = tkinter.Label(window)
 textBoxLabel['text'] = '¡Escribe tu nombre!'
 textBoxLabel.pack()
 
-Textbox = tkinter.Entry(window)
-Textbox.focus()
-Textbox.pack()
+textBox = tkinter.Entry(window)
+textBox.focus()
+textBox.pack()
 
 label = tkinter.Label(window)
 label.pack()
 
-
 def Textfromthebox():
-    label["text"] = 'Hola ' + Textbox.get()
+    label["text"] = 'Hola ' + textBox.get()
 
 
 Button1 = tkinter.Button(window, text="Click", command=Textfromthebox)
