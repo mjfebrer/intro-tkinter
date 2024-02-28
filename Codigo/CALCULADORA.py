@@ -1,5 +1,5 @@
 number_1 = input('Escribe un número: ')
-number_1 = number_1.replace('.', '')
+number_1 = number_1.replace('.', '')+
 number_1 = int(number_1)
 
 number_2 = input('Escribe otro número: ')
